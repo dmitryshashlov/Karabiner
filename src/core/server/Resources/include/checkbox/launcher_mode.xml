@@ -34,6 +34,8 @@
       <appendix>* TextEdit: O+shift+T key</appendix>
       <appendix>* Xcode: O+X key</appendix>
       <appendix>* iPhone Simulator: O+shift+X key</appendix>
+      <appendix>* MacVim: 0+V key</appendix>
+      <appendix>* Google Chrome: 0+C key</appendix>
 
       <identifier>remap.launcher_mode_v2</identifier>
 
@@ -84,6 +86,8 @@
       <autogen>__KeyDownUpToKey__ KeyCode::T, MODIFIERFLAG_EITHER_LEFT_OR_RIGHT_SHIFT | ModifierFlag::NONE, KeyCode::VK_OPEN_URL_APP_TextEdit</autogen>
       <autogen>__KeyDownUpToKey__ KeyCode::X, ModifierFlag::NONE, KeyCode::VK_OPEN_URL_APP_Xcode</autogen>
       <autogen>__KeyDownUpToKey__ KeyCode::X, MODIFIERFLAG_EITHER_LEFT_OR_RIGHT_SHIFT | ModifierFlag::NONE, KeyCode::VK_OPEN_URL_APP_iPhoneSimulator</autogen>
+      <autogen>__KeyDownUpToKey__ KeyCode::C, ModifierFlag::NONE, KeyCode::VK_OPEN_URL_APP_GoogleChrome</autogen>
+      <autogen>__KeyDownUpToKey__ KeyCode::V, ModifierFlag::NONE, KeyCode::VK_OPEN_URL_SHELL_mvim</autogen>
     </item>
 
   </item>
